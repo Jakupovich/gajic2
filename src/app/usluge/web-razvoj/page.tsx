@@ -9,7 +9,7 @@ export default function WebRazvoj() {
   return (
     <ServicePageLayout
       title="Web razvoj koji pretvara dizajn u stabilno digitalno rešenje"
-      subtitle="Izrada i programiranje web sajta koji radi brzo, pouzdano i skalabilno."
+      subtitle="Kvalitetan razvoj je temelj svakog uspešnog sajta. Bez stabilne tehničke strukture, ni najbolji dizajn ne može da postigne svoj puni potencijal."
       description="Naš razvojni tim koristi moderne tehnologije i best practice pristupe da bi vaš sajt bio brz, siguran i spreman za rast. Svaki projekat prolazi kroz rigorozno testiranje pre isporuke."
       whatIsTitle="Šta je web razvoj?"
       whatIsText="Web razvoj je proces programiranja i izrade web sajta na osnovu dizajna. Obuhvata front-end razvoj (ono što korisnik vidi), back-end razvoj (serverska logika i baze podataka) i integracije sa eksternim servisima. Razvoj je moguć uz naš dizajn ili postojeće dizajnersko rešenje koje ste pripremili sa drugim timom."

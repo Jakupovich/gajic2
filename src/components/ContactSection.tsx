@@ -10,11 +10,10 @@ export default function ContactSection() {
           <div>
             <span className="section-label">Kontakt</span>
             <h2 className="section-title mt-3 mb-4">
-              Koja usluga vam je potrebna?
+              Nisi siguran/na koja usluga ti je potrebna?
             </h2>
             <p className="text-slate-400 leading-relaxed mb-8">
-              Bez obzira da li vam je potreban dizajn, razvoj ili kompletna digitalna
-              realizacija, pošalji nam poruku i zajedno ćemo pronaći pravo rešenje.
+              Ako nisi siguran/na da li ti je potreban dizajn, razvoj ili kompletno rešenje, pošalji nam poruku i pomoći ćemo ti da pronađeš pravo rešenje.
             </p>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-surface to-surface-light flex items-center justify-center">
               <div className="text-center p-8">
@@ -34,7 +33,6 @@ export default function ContactSection() {
                   <input
                     type="text"
                     className="w-full bg-surface border border-surface-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-cyan-400/50 transition-colors"
-                    placeholder="Vaše ime"
                   />
                 </div>
                 <div>
@@ -42,7 +40,6 @@ export default function ContactSection() {
                   <input
                     type="text"
                     className="w-full bg-surface border border-surface-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-cyan-400/50 transition-colors"
-                    placeholder="Vaše prezime"
                   />
                 </div>
               </div>
@@ -51,7 +48,6 @@ export default function ContactSection() {
                 <input
                   type="email"
                   className="w-full bg-surface border border-surface-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-cyan-400/50 transition-colors"
-                  placeholder="vas@email.com"
                 />
               </div>
               <div>
@@ -59,7 +55,6 @@ export default function ContactSection() {
                 <input
                   type="text"
                   className="w-full bg-surface border border-surface-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-cyan-400/50 transition-colors"
-                  placeholder="Naziv kompanije"
                 />
               </div>
               <div>
@@ -67,11 +62,10 @@ export default function ContactSection() {
                 <textarea
                   rows={5}
                   className="w-full bg-surface border border-surface-border rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-cyan-400/50 transition-colors resize-none"
-                  placeholder="Opišite vaš projekat..."
                 />
               </div>
               <button type="submit" className="btn-primary w-full justify-center py-4">
-                Pošalji poruku
+                Pošalji ponuku
                 <ArrowUpRight className="w-4 h-4" />
               </button>
             </form>

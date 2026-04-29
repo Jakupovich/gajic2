@@ -8,8 +8,8 @@ export const metadata = {
 export default function AppRazvoj() {
   return (
     <ServicePageLayout
-      title="App razvoj koji pretvara dizajn u funkcionalan proizvod"
-      subtitle="Tehnička realizacija i programiranje mobilne aplikacije prema definisanom dizajnu."
+      title="App razvoj koji pretvara ideju u funkcionalan proizvod"
+      subtitle="Stabilan i kvalitetan razvoj je ključ svake uspešne aplikacije. Bez pouzdane tehničke implementacije, ni najbolji dizajn ne može da iskoristi svoj puni potencijal."
       description="Razvijamo mobilne aplikacije koristeći najnovije tehnologije za iOS i Android platforme. Svaka aplikacija je optimizovana za performanse, sigurnost i korisničko iskustvo."
       whatIsTitle="Šta je app razvoj?"
       whatIsText="App razvoj je tehnička realizacija i programiranje mobilne aplikacije prema definisanom dizajnu. Obuhvata implementaciju korisničkog interfejsa, poslovne logike, integracija sa API-jevima i eksternim servisima. Razvoj je moguć uz naš dizajn ili postojeće dizajnersko rešenje."
@@ -48,8 +48,8 @@ export default function AppRazvoj() {
       ]}
       relatedProjects={[
         { title: "Delivery App", slug: "delivery-app", tags: ["App", "Food/Drink"] },
-        { title: "FitApp Mobile", slug: "delivery-app", tags: ["Health", "Fitness"] },
-        { title: "EcoTracker App", slug: "delivery-app", tags: ["Lifestyle", "Mobile"] },
+        { title: "FitApp Mobile", slug: "fitapp", tags: ["Health", "Fitness"] },
+        { title: "EcoTracker App", slug: "ecotracker", tags: ["Lifestyle", "Mobile"] },
       ]}
     />
   );
