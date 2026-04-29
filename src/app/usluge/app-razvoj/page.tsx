@@ -48,8 +48,8 @@ export default function AppRazvoj() {
       ]}
       relatedProjects={[
         { title: "Delivery App", slug: "delivery-app", tags: ["App", "Food/Drink"] },
-        { title: "FitApp Mobile", slug: "fitapp", tags: ["Health", "Fitness"] },
-        { title: "EcoTracker App", slug: "ecotracker", tags: ["Lifestyle", "Mobile"] },
+        { title: "Travel Booking", slug: "travel-booking", tags: ["Booking", "Travel"] },
+        { title: "Smart Finance", slug: "smart-finance", tags: ["Corporate", "Template"] },
       ]}
     />
   );
