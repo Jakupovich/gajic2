@@ -9,7 +9,7 @@ export default function WebDizajn() {
   return (
     <ServicePageLayout
       title="Web dizajn koji gradi poverenje i konvertuje"
-      subtitle="Vizuelno privlačan i funkcionalan dizajn koji pretvara posetioce u klijente."
+      subtitle="Vaš web sajt je prvi utisak koji ostavljate. Mi dizajniramo digitalna iskustva koja nisu samo estetski dopušljiva, već strateški osmišljena da vode korisnika ka pravoj akciji."
       description="Svaki projekat započinjemo razumevanjem vašeg brenda, ciljne grupe i poslovnih ciljeva. Na osnovu toga kreiramo dizajn koji nije samo lep, već i strateški osmišljen da konvertuje."
       whatIsTitle="Šta je web dizajn?"
       whatIsText="Web dizajn je proces kreiranja vizuelnog izgleda i korisničkog iskustva web sajta. Obuhvata strukturu, raspored elemenata, tipografiju, boje i interakcije — sve što korisnik vidi i sa čime komunicira. Naš fokus je na kreiranju dizajna koji je intuitivan, estetski privlačan i optimizovan za konverzije. Svaki piksel ima svrhu, svaki element vodi korisnika ka željenom cilju."
