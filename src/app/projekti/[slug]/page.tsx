@@ -16,9 +16,81 @@ const projects: Record<
     processSteps: { title: string; description: string }[];
   }
 > = {
+  "travel-booking": {
+    title: "Conversion-Focused Travel Booking Experience",
+    subtitle: "Travel Booking",
+    tags: ["Booking", "Travel", "Web Design", "UI/UX"],
+    description:
+      "Moderna booking platforma dizajnirana da pojednostavi pretragu, booking i upravljanje rezervacijama.",
+    goal: "Kreirati intuitivnu platformu za rezervacije koja povećava konverzije i pruža premium korisničko iskustvo.",
+    approach:
+      "Fokusirali smo se na jednostavnost pretrage i brzinu rezervacija. Svaki korak je dizajniran da minimizuje frikciju i vodi korisnika ka konverziji.",
+    color: "from-blue-900/40 to-blue-950/60",
+    screenshots: ["Search", "Listings", "Booking", "Confirmation"],
+    processSteps: [
+      { title: "Analiza zahteva", description: "Istraživanje korisničkih potreba i analiza konkurentskih booking platformi." },
+      { title: "UX strategija", description: "Mapiranje korisničkih tokova za pretragu, filtriranje i rezervaciju." },
+      { title: "Dizajn prototipa", description: "Kreiranje kompletnog UI dizajna sa fokusom na konverzije." },
+      { title: "Razvoj rešenja", description: "Implementacija responsivne platforme sa real-time dostupnošću." },
+    ],
+  },
+  lumivee: {
+    title: "High-Impact Digital Presence for Lumivee",
+    subtitle: "Lumivee",
+    tags: ["Agency", "Creativity", "Web Design", "Marketing"],
+    description:
+      "Kreiranje digitalnog prisustva za marketing agenciju Lumivee. Sajt komunicira inovativnost, kreativnost i rezultate koje agencija postiže za svoje klijente.",
+    goal: "Pozicionirati Lumivee kao premium marketing agenciju sa snažnim digitalnim prisustvom koje privlači nove klijente.",
+    approach:
+      "Koristili smo bold dizajn sa modernom tipografijom i dinamičnim vizualima koji odražavaju kreativnu energiju agencije.",
+    color: "from-emerald-900/40 to-emerald-950/60",
+    screenshots: ["Homepage", "Services", "Portfolio", "Contact"],
+    processSteps: [
+      { title: "Analiza zahteva", description: "Razumevanje brenda Lumivee i pozicioniranja na tržištu." },
+      { title: "UX strategija", description: "Kreiranje korisničkih tokova za prezentaciju usluga i portfolio." },
+      { title: "Dizajn prototipa", description: "Razvoj vizuelnog identiteta sa bold, modernim stilom." },
+      { title: "Razvoj rešenja", description: "Implementacija sajta sa animacijama i interaktivnim elementima." },
+    ],
+  },
+  medigroup: {
+    title: "Trust-Driven Healthcare Platform for MediGroup",
+    subtitle: "MediGroup",
+    tags: ["Medical", "Healthcare", "Web Design", "Development"],
+    description:
+      "Zdravstvena medicinska platforma koja gradi poverenje i olakšava pristup informacijama.",
+    goal: "Kreirati pouzdanu medicinsku platformu koja gradi poverenje kod pacijenata i olakšava pristup zdravstvenim informacijama.",
+    approach:
+      "Pristupili smo sa fokusom na čist, profesionalan dizajn koji komunicira kompetentnost i poverenje u medicinskom sektoru.",
+    color: "from-teal-900/40 to-teal-950/60",
+    screenshots: ["Homepage", "Services", "Doctors", "Contact"],
+    processSteps: [
+      { title: "Analiza zahteva", description: "Razumevanje specifičnih potreba zdravstvenog sektora i regulatornih zahteva." },
+      { title: "UX strategija", description: "Kreiranje pristupačnog interfejsa za različite demografske grupe pacijenata." },
+      { title: "Dizajn prototipa", description: "Profesionalan dizajn koji komunicira poverenje i kompetentnost." },
+      { title: "Razvoj rešenja", description: "Razvoj platforme sa sistemom za zakazivanje i upravljanje informacijama." },
+    ],
+  },
+  "smart-finance": {
+    title: "Smart Finance Dashboard Experience",
+    subtitle: "Smart Finance",
+    tags: ["Corporate", "Template", "Dashboard", "UI/UX"],
+    description:
+      "Dizajn finansijskog dashboard-a koji pruža jasan pregled svih ključnih finansijskih metrika i izveštaja.",
+    goal: "Kreirati intuitivan finansijski dashboard koji olakšava donošenje poslovnih odluka na osnovu podataka.",
+    approach:
+      "Koristili smo data-driven dizajn pristup sa čitkim grafikonima, tabelama i KPI indikatorima za brz uvid u finansijsko stanje.",
+    color: "from-indigo-900/40 to-indigo-950/60",
+    screenshots: ["Dashboard", "Analytics", "Reports", "Settings"],
+    processSteps: [
+      { title: "Analiza zahteva", description: "Definisanje ključnih metrika i KPI-jeva za prikaz na dashboard-u." },
+      { title: "UX strategija", description: "Organizacija podataka i navigacije za brz pristup informacijama." },
+      { title: "Dizajn prototipa", description: "Dizajn sa fokusom na čitljivost podataka i vizuelnu hijerarhiju." },
+      { title: "Razvoj rešenja", description: "Implementacija interaktivnog dashboard-a sa real-time podacima." },
+    ],
+  },
   "tech-woven-suit": {
-    title: "E-commerce Design",
-    subtitle: "Tech Woven Suit",
+    title: "High-Impact Nike E-commerce Design",
+    subtitle: "TECH WOVEN SUIT",
     tags: ["Fashion", "E-commerce", "Web Design", "UI/UX"],
     description:
       "Kompletno dizajnersko rešenje za premium fashion e-commerce platformu. Projekat je obuhvatio kreiranje modernog, minimalističkog dizajna sa fokusom na prezentaciju proizvoda i jednostavan proces kupovine.",

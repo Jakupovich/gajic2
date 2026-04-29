@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Phone, Menu, X } from "lucide-react";
+import { ArrowUpRight, Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,12 +15,12 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-primary/80 backdrop-blur-xl border-b border-white/5">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-primary/90 backdrop-blur-xl border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="flex items-center gap-1">
-            <span className="text-[10px] text-slate-400 uppercase tracking-widest">agency</span>
-            <span className="text-2xl font-bold text-white">gajic.</span>
+          <Link href="/" className="flex flex-col items-start leading-none">
+            <span className="text-[8px] text-slate-400 uppercase tracking-[0.25em]">agency</span>
+            <span className="text-2xl font-bold text-white -mt-1">gajic.</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
@@ -36,9 +36,9 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:block">
-            <Link href="/kontakt" className="btn-primary text-sm">
-              <Phone className="w-4 h-4" />
-              Zakaži poziv
+            <Link href="/zapocni-projekat" className="btn-primary text-sm">
+              Započni posao
+              <ArrowUpRight className="w-4 h-4" />
             </Link>
           </div>
 
@@ -66,12 +66,12 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/kontakt"
+              href="/zapocni-projekat"
               onClick={() => setIsOpen(false)}
               className="btn-primary text-sm w-full justify-center mt-4"
             >
-              <Phone className="w-4 h-4" />
-              Zakaži poziv
+              Započni posao
+              <ArrowUpRight className="w-4 h-4" />
             </Link>
           </div>
         </div>

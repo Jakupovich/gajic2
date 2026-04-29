@@ -9,7 +9,7 @@ export default function AppDizajn() {
   return (
     <ServicePageLayout
       title="App dizajn koji pretvara ideju u intuitivno digitalno iskustvo"
-      subtitle="Kreiranje interfejsa i korisničkog iskustva mobilne aplikacije koje korisnici vole."
+      subtitle="Mobilna aplikacija nije samo skup ekrana. To je iskustvo koje mora biti jasno, jednostavno i prilagođeno korisniku od prvog dodira sa ekranom."
       description="Pristupamo dizajnu mobilnih aplikacija sa dubokim razumevanjem korisničkog ponašanja na mobilnim uređajima. Svaki ekran je pažljivo osmišljen da pruži intuitivno, brzo i prijatno iskustvo."
       whatIsTitle="Šta je app dizajn?"
       whatIsText="App dizajn obuhvata kreiranje kompletnog korisničkog interfejsa i iskustva mobilne aplikacije. Od navigacije i strukture ekrana do svakog dugmeta i animacije — sve je dizajnirano da korisnik može intuitivno da koristi aplikaciju bez razmišljanja. Naš pristup kombinuje estetiku sa funkcionalnošću, fokusirajući se na korisničke tokove koji vode do konverzija."
@@ -48,8 +48,8 @@ export default function AppDizajn() {
       ]}
       relatedProjects={[
         { title: "Delivery App", slug: "delivery-app", tags: ["App Design", "Food/Drink"] },
-        { title: "FitApp", slug: "delivery-app", tags: ["Health", "Fitness"] },
-        { title: "EcoTracker", slug: "delivery-app", tags: ["Lifestyle", "Eco"] },
+        { title: "FitApp", slug: "fitapp", tags: ["Health", "Fitness"] },
+        { title: "EcoTracker", slug: "ecotracker", tags: ["Lifestyle", "Eco"] },
       ]}
     />
   );

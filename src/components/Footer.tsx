@@ -6,13 +6,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <Link href="/" className="flex items-center gap-1 mb-4">
-              <span className="text-[10px] text-slate-400 uppercase tracking-widest">agency</span>
-              <span className="text-2xl font-bold text-white">gajic.</span>
+            <Link href="/" className="flex flex-col items-start leading-none mb-4">
+              <span className="text-[8px] text-slate-400 uppercase tracking-[0.25em]">agency</span>
+              <span className="text-2xl font-bold text-white -mt-1">gajic.</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Digitalna agencija koja kombinaciju kreativnog dizajna i moderne tehnologije
-              koja gradi poverenje i pokreće rast.
+              Gradimo digitalna iskustva koja kombinuju dizajn, funkcionalnost i strategiju. Naš fokus je na rešenjima koja grade poverenje, aktivno brend i podržavaju rast.
             </p>
           </div>
 
@@ -61,7 +60,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Zapratite nas</h4>
             <ul className="space-y-2">
-              {["Facebook", "Twitter", "Instagram", "LinkedIn"].map((social) => (
+              {["Facebook", "Twitter", "Instagram", "Linkedin"].map((social) => (
                 <li key={social}>
                   <a
                     href="#"

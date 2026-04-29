@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { Plus, Minus } from "lucide-react";
+import { Plus, Minus, ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 const faqs = [
   {
     question: "Kako da započnem saradnju?",
     answer:
-      "Jednostavno! Popunite formu za projekat ili nam pošaljite poruku sa osnovnim informacijama o vašoj ideji.",
+      "Jednostavno! Popunite formu za projekat ili nam pošaljite poruku sa osnovnim informacijama o vašoj ideji. Kontaktiraćemo vas u najkraćem roku.",
   },
   {
     question: "Koliko traje izrada sajta ili aplikacije?",
@@ -39,19 +40,22 @@ export default function FAQSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           <div>
-            <span className="section-label">FAQ</span>
+            <span className="section-label">Pitanja i odgovori</span>
             <h2 className="section-title mt-3 mb-4">
-              Imate pitanje?
+              Imate pitanja?
               <br />
-              Mi imamo odgovore.
+              Imamo odgovore.
             </h2>
             <p className="text-slate-400 leading-relaxed mb-4">
-              Transparentnost je nešto što započnemo nego što započnemo saradnju.
-              I bez skrivenih detalja.
+              Sve što treba da znate pre nego što započnemo saradnju jasno, konkretno i bez skrivenih detalja.
             </p>
-            <p className="text-slate-400 leading-relaxed">
-              Ako vam je jasna vizija i dobro definisan cilj, ovde počinje prvi korak.
+            <p className="text-slate-400 leading-relaxed mb-8">
+              Verujemo u jasnu komunikaciju i dobro definisani proces. Ako razmišljate o saradnji, ovde počinje prvi korak.
             </p>
+            <Link href="/zapocni-projekat" className="btn-primary text-sm">
+              Započni projekat
+              <ArrowUpRight className="w-4 h-4" />
+            </Link>
           </div>
 
           <div className="space-y-3">

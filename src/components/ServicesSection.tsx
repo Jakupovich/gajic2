@@ -5,29 +5,33 @@ const services = [
   {
     icon: Monitor,
     title: "Web dizajn",
-    description:
-      "Kreiranje izgleda i korisničkog iskustva web sajta. Isključivo dizajn bez programiranja, spreman za dalju realizaciju.",
+    description: "Kreiranje vizuelnog izgleda i korisničkog iskustva web sajta. Usluga obuhvata",
+    bold: "isključivo dizajn bez programiranja",
+    suffix: ", spreman za dalju realizaciju.",
     href: "/usluge/web-dizajn",
   },
   {
     icon: Smartphone,
     title: "App dizajn",
-    description:
-      "Kreiranje interfejsa i korisničkog iskustva mobilne aplikacije. Usluga obuhvata isključivo dizajn bez programiranja, spreman za razvoj.",
+    description: "Kreiranje interfejsa i korisničkog iskustva mobilne aplikacije. Usluga obuhvata",
+    bold: "isključivo dizajn bez programiranja",
+    suffix: ", spreman za razvoj.",
     href: "/usluge/app-dizajn",
   },
   {
     icon: Code,
     title: "Web razvoj",
-    description:
-      "Izrada i programiranje web sajta na osnovu dizajna. Razvoj je moguć uz naš dizajn ili postojeće dizajnersko rešenje.",
+    description: "Tehnička realizacija i programiranje web sajta prema definisanom dizajnu.",
+    bold: "Razvoj je moguć uz naš dizajn",
+    suffix: " ili postojeće dizajnersko rešenje.",
     href: "/usluge/web-razvoj",
   },
   {
     icon: Layers,
     title: "App razvoj",
-    description:
-      "Tehnička realizacija i programiranje mobilne aplikacije prema definisanom dizajnu. Razvoj je moguć uz naš dizajn ili postojeće dizajnersko rešenje.",
+    description: "Tehnička realizacija i programiranje mobilne app prema definisanom dizajnu.",
+    bold: "Razvoj je moguć uz naš dizajn",
+    suffix: " ili postojeće dizajnersko rešenje.",
     href: "/usluge/app-razvoj",
   },
 ];
@@ -40,7 +44,7 @@ export default function ServicesSection() {
           <span className="section-label">Usluge</span>
           <h2 className="section-title mt-3 mb-4">Šta nudimo</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Rešenja osmišljena da unaprede korisničko iskustvo i donesu konkretne poslovne rezultate.
+            Digitalna rešenja osmišljena da unaprede korisničko iskustvo i donesu konkretne poslovne rezultate.
           </p>
         </div>
 
@@ -59,14 +63,14 @@ export default function ServicesSection() {
                   {service.title}
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed mb-5">
-                  {service.description}
+                  {service.description} <span className="font-bold text-white">{service.bold}</span>{service.suffix}
                 </p>
                 <Link
                   href={service.href}
-                  className="inline-flex items-center gap-2 text-cyan-400 text-sm font-medium hover:gap-3 transition-all duration-300"
+                  className="btn-outline text-xs px-5 py-2.5"
                 >
                   Saznaj više
-                  <ArrowUpRight className="w-4 h-4" />
+                  <ArrowUpRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
             );
