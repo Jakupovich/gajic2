@@ -87,6 +87,8 @@ export default function Projekti() {
       ? allProjects
       : allProjects.filter((p) => p.category === filter);
 
+  const hasAppProjects = allProjects.some((p) => p.category === "app");
+
   return (
     <div className="pt-20">
       <section className="py-20 md:py-32 bg-primary relative overflow-hidden">
@@ -106,7 +108,7 @@ export default function Projekti() {
             {[
               { key: "all" as const, label: "Svi projekti" },
               { key: "web" as const, label: "Web sajt" },
-              { key: "app" as const, label: "Mobilna aplikacija" },
+              ...(hasAppProjects ? [{ key: "app" as const, label: "Mobilna aplikacija" }] : []),
             ].map((tab) => (
               <button
                 key={tab.key}

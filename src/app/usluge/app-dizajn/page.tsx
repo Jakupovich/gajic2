@@ -48,8 +48,8 @@ export default function AppDizajn() {
       ]}
       relatedProjects={[
         { title: "Delivery App", slug: "delivery-app", tags: ["App Design", "Food/Drink"] },
-        { title: "FitApp", slug: "fitapp", tags: ["Health", "Fitness"] },
-        { title: "EcoTracker", slug: "ecotracker", tags: ["Lifestyle", "Eco"] },
+        { title: "MediGroup", slug: "medigroup", tags: ["Medical", "Healthcare"] },
+        { title: "Lumivee", slug: "lumivee", tags: ["Agency", "Creativity"] },
       ]}
     />
   );

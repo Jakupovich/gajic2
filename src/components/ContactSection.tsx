@@ -65,7 +65,7 @@ export default function ContactSection() {
                 />
               </div>
               <button type="submit" className="btn-primary w-full justify-center py-4">
-                Pošalji ponuku
+                Pošalji poruku
                 <ArrowUpRight className="w-4 h-4" />
               </button>
             </form>
