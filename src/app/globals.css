@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0f1a;
+  --foreground: #e2e8f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-gradient-to-r from-cyan-400 to-cyan-300 text-primary-dark font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/25 hover:scale-105;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-cyan-400/30 text-cyan-400 px-6 py-3 rounded-full transition-all duration-300 hover:bg-cyan-400/10 hover:border-cyan-400/60;
+  }
+  .section-label {
+    @apply text-cyan-400 text-sm font-medium tracking-wider uppercase;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight;
+  }
+  .card-dark {
+    @apply bg-surface rounded-2xl border border-surface-border p-6 transition-all duration-300 hover:border-cyan-400/20;
+  }
+}
